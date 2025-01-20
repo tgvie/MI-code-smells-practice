@@ -1,5 +1,5 @@
-import 'src/css/style.scss';
-import {createHtml} from 'src/js/createHtml.js';
+import '../css/style.scss';
+import { createHtml } from './createHtml.js';
 
 function init (){
 
