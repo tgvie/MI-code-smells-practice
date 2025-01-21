@@ -1,11 +1,10 @@
-import {getPodcasts} from './api'
-
+import {getPodcasts} from './api.js'
 
 const podCastContainer = document.querySelector('.section__podlist-pods');
 
 let i = 0;
 
-export async function createHtml (){
+export async function createHtml () {
     const podCasts = await getPodcasts ();
     podCasts.programs.forEach((podcast) => {
     i++
@@ -27,7 +26,7 @@ createImg();
             return innerArticle;
     }
 
-    function createTextiv() {
+    function createTextDiv() {
         const textDiv = document.createElement('div');
         textDiv.setAttribute('class', 'section__article-div');
         innerArticle.appendChild(textDiv);
