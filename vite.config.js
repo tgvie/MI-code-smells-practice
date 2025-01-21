@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: './',
-  build: {
-    outDir: 'dist',
-  },
+    base: '/fed24d-arbetsmetodik-inl-1-tgvie/',
+    root: './',
+    build: {
+        outDir: 'dist',
+    },
 });
