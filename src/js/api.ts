@@ -13,7 +13,6 @@ export async function getPodcasts() {
             console.error('nått blev fel:', error)
             return null;
         })
-
 }
 
 export default getPodcasts;
