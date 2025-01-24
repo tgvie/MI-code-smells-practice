@@ -4,5 +4,10 @@
     "extends": [
       "eslint:recommended",
       "plugin:@typescript-eslint/recommended"
-    ]
-  }  
+    ],
+    "rules": {
+    "no-console": "warn",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single", { "avoidEscape": true }]
+    }
+}  
