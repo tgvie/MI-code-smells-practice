@@ -10,9 +10,10 @@ export async function getPodcasts() {
     .then((data) => data.json())
         .then((json) => json)
         .catch((error) => {
-            console.error('nått blev fel:', error)
+            // eslint-disable-next-line no-console
+            console.error('nått blev fel:', error);
             return null;
-        })
+        });
 }
 
 export default getPodcasts;

@@ -46,7 +46,7 @@ export async function createHtml(): Promise<void> {
         const linkPlacement = document.createElement('a');
         linkPlacement.href = podcast.programurl;
         linkPlacement.textContent = 'Lyssna här';
-        container.appendChild(linkPlacement)
+        container.appendChild(linkPlacement);
     }
 
     function createImg(podcast: Podcast, container: HTMLElement): void {
