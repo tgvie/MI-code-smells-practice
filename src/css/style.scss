@@ -14,13 +14,13 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-.section__article-innerarticle {
+.podlist__pods-article {
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
 }
 
-.section__article-div {
+.pods-article__div {
   display: inline-flex;
   flex-direction: column;
   margin-top: 0;
@@ -71,14 +71,14 @@ a:hover {
 }
 
 @media screen and (min-width: 1000px) {
-  .section--podlist-pods {
+  .podlist__pods {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .section--podlist-pods {
+  .podlist__pods {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

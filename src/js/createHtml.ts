@@ -1,6 +1,6 @@
 import { getPodcasts, Podcast } from './api';
 
-const podCastContainer = document.querySelector('.section--podlist-pods')!;
+const podCastContainer = document.querySelector('.podlist__pods')!;
 
 export async function createHtml(): Promise<void> {
     const podCasts = await getPodcasts();
@@ -17,7 +17,7 @@ export async function createHtml(): Promise<void> {
 
     function createInnerArticle(): HTMLElement {
         const innerArticle = document.createElement('article');
-        innerArticle.className = 'article--inner-article';
+        innerArticle.className = 'podlist__pods-article';
         innerArticle.tabIndex = 1;
         podCastContainer.appendChild(innerArticle);
         return innerArticle;
@@ -31,7 +31,7 @@ export async function createHtml(): Promise<void> {
 
     function createTextDiv(innerArticle: HTMLElement): HTMLElement {
         const textDiv = document.createElement('div');
-        textDiv.className = 'section--article-div';  
+        textDiv.className = 'pods-article__div';  
         innerArticle.appendChild(textDiv);
         return textDiv;
     }
