@@ -2,22 +2,30 @@ import { getPodcasts, Podcast } from './api';
 import { privateLog } from './logger';
 
 const podCastContainer = document.querySelector('.podlist__pods')!;
+const podsErrorMsg = document.querySelector('#podsError') as HTMLElement;
 
 export async function createHtml(): Promise<void> {
     privateLog('Skapar HTML-innehåll för podcaster.');
 
-    const podCasts = await getPodcasts();
+    try {
+       const podCasts = await getPodcasts();
 
-    podCasts.programs.forEach((podcast: Podcast) => {
-        const innerArticle = createInnerArticle();
-        const textDiv = createTextDiv(innerArticle);
+        podCasts.programs.forEach((podcast: Podcast) => {
+            const innerArticle = createInnerArticle();
+            const textDiv = createTextDiv(innerArticle);
 
-        createHeader(podcast, textDiv);
-        createP(podcast, textDiv);
-        createImg(podcast, innerArticle);
-        createLink(podcast, textDiv);
-    });
+            createHeader(podcast, textDiv);
+            createP(podcast, textDiv);
+            createImg(podcast, innerArticle);
+            createLink(podcast, textDiv);
+        }); 
+    } catch (error) {
+        privateLog('Fel vid hämtning av podcaster: ', error);
+
+        podsErrorMsg.textContent = 'Kunde inte ladda podcast-listan. Försök igen senare.';
+    }
 }
+
 
 function createInnerArticle(): HTMLElement {
     const innerArticle = document.createElement('article');

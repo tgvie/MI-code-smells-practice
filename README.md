@@ -32,8 +32,8 @@ Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Upp
 - [x] Hantera loggning på ett effektivt sätt
 - [x] Gör en tillgänglighetsgranskning av sidan
 - [] Utnyttja features i Sass i CSS:en
-- [] Rensa bort paket som inte används
-- [] Hantera fel i API-anropet
+- [x] Rensa bort paket som inte används
+- [x] Hantera fel i API-anropet
 - [] Gör en Lighthouse-analys
 - [] Läs av utvecklingsmiljön
 - [] Enhetlig syntax i CSS:en
