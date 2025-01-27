@@ -30,7 +30,7 @@ Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Upp
   
 - [x] Rätt sak på rätt plats
 - [x] Hantera loggning på ett effektivt sätt
-- [] Gör en tillgänglighetsgranskning av sidan
+- [x] Gör en tillgänglighetsgranskning av sidan
 - [] Utnyttja features i Sass i CSS:en
 - [] Rensa bort paket som inte används
 - [] Hantera fel i API-anropet

@@ -22,7 +22,7 @@ export async function createHtml(): Promise<void> {
 function createInnerArticle(): HTMLElement {
     const innerArticle = document.createElement('article');
     innerArticle.className = 'podlist__pods-article';
-    innerArticle.tabIndex = 1;
+    innerArticle.tabIndex = 0;
     podCastContainer.appendChild(innerArticle);
     return innerArticle;
 }
