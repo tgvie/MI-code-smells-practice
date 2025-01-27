@@ -24,7 +24,7 @@ Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Upp
 - [x] Rensa loggning
 - [x] Dokumentation
 - [x] Tillgänglighet (bilder)
-- [] Refaktorera funktioner
+- [x] Refaktorera funktioner
 - [x] Eliminera onödig kod
 - [x] Rensa bort kod som inte ska sättas
   
