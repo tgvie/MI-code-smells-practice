@@ -1,8 +1,11 @@
 import { getPodcasts, Podcast } from './api';
+import { privateLog } from './logger';
 
 const podCastContainer = document.querySelector('.podlist__pods')!;
 
 export async function createHtml(): Promise<void> {
+    privateLog('Skapar HTML-innehåll för podcaster.');
+
     const podCasts = await getPodcasts();
 
     podCasts.programs.forEach((podcast: Podcast) => {
