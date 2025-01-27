@@ -28,7 +28,7 @@ Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Upp
 - [x] Eliminera onödig kod
 - [x] Rensa bort kod som inte ska sättas
   
-- [] Rätt sak på rätt plats
+- [x] Rätt sak på rätt plats
 - [] Hantera loggning på ett effektivt sätt
 - [] Gör en tillgänglighetsgranskning av sidan
 - [] Utnyttja features i Sass i CSS:en
