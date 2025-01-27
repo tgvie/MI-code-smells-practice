@@ -54,6 +54,7 @@ export async function createHtml(): Promise<void> {
         imgPlacement.src = podcast.socialimage;
         imgPlacement.width = 100;
         imgPlacement.height = 100;
+        imgPlacement.alt = `Bild för podcasten ${podcast.name}. Den handlar om: ${podcast.description}`;
         container.appendChild(imgPlacement);
     }
 }
