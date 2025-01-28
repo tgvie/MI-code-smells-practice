@@ -6,7 +6,7 @@ Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Upp
 
 **Demo: https://medieinstitutet.github.io/fed24d-arbetsmetodik-inl-1-tgvie/**
 
-## 🖼️ Skärmdump 
+### 🖼️ Skärmdump 
 | Desktop Light Mode | Dessktop Dark Mode |
 | ----------------- | ----------------- | 
 | ![Desktop Light Mode](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/desktop-light.png) | ![Desktop Dark Mode](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/desktop-dark.png) |
