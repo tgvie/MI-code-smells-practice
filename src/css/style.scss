@@ -2,9 +2,8 @@
     Variables
 ============================================ */
 $font-family: "Source Sans Pro", sans-serif;
-$font-color-light: #ffffff;
+$font-color-light: #fff;
 $font-color-dark: #242424;
-
 $background-color-dark: #242424;
 $background-color-light: #faebd7;
 
@@ -15,7 +14,7 @@ body {
   font-family: $font-family;
   line-height: 1.5;
   font-weight: 400;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizelegibility;
   color: $font-color-light;
   background-color: $background-color-dark;
   margin: 0;
@@ -25,7 +24,7 @@ body {
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 /* ============================================
@@ -36,7 +35,7 @@ button {
   display: inline-block;
   border: 0;
   font-weight: 600;
-  color: rgb(72, 76, 122);
+  color: rgb(72 76 122);
   font-size: 1rem;
   height: 38px;
   padding: 8px 24px;
@@ -105,13 +104,13 @@ p {
 ============================================ */
 a {
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgb(255 255 255 / 87%);
   font-weight: 600;
   transition: color 0.2s;
 
   &:active,
   &:hover {
-  color: rgb(85, 85, 218);
+  color: rgb(85 85 218);
   }
 }
 
@@ -142,14 +141,14 @@ img {
   }
 }
 
-/*Grid layout for different screens*/
-@media screen and (min-width: 1000px) {
+/* Grid layout for different screens */
+@media screen and (width >= 1000px) {
   .podlist__pods {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (width >= 1440px) {
   .podlist__pods {
     grid-template-columns: repeat(3, 1fr);
   }

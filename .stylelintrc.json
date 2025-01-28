@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss"
+  ],
+  "rules": {
+    "selector-max-id": 0,
+    "color-named": "never",
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-empty-line-before": [
+      "always",
+      {
+        "except": ["first-nested"],
+        "ignore": ["after-declaration"]
+      }
+    ],
+    "comment-whitespace-inside": "always",
+    "scss/comment-no-empty": true,
+    "scss/double-slash-comment-whitespace-inside": "always"
+  }
+}
+  

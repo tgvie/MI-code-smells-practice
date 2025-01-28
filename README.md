@@ -36,7 +36,7 @@ Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Upp
 - [x] Hantera fel i API-anropet
 - [] Gör en Lighthouse-analys
 - [] Läs av utvecklingsmiljön
-- [] Enhetlig syntax i CSS:en
+- [x] Enhetlig syntax i CSS:en
 - [] Publicera sidan på GitHub pages
 
 ## 🛠️ Tech Stack 
