@@ -10,7 +10,7 @@ export async function createHtml(): Promise<void> {
     try {
        const podCasts = await getPodcasts();
 
-        podCasts.programs.forEach((podcast: Podcast) => {
+        podCasts.forEach((podcast: Podcast) => {
             const innerArticle = createInnerArticle();
             const textDiv = createTextDiv(innerArticle);
 
@@ -20,7 +20,7 @@ export async function createHtml(): Promise<void> {
             createLink(podcast, textDiv);
         }); 
     } catch (error) {
-        privateLog('Fel vid hämtning av podcaster: ', error);
+        privateLog('Fel vid hämtning av podcaster:', error);
 
         podsErrorMsg.textContent = 'Kunde inte ladda podcast-listan. Försök igen senare.';
     }
