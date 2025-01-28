@@ -131,6 +131,15 @@ img {
 }
 
 /* ============================================
+    Error Message
+============================================ */
+.pods-error-msg {
+  font-size: 2rem;
+  text-align: center;
+  color: $font-color-light;
+}
+
+/* ============================================
     Dark Mode
 ============================================ */
 .darkmode {
@@ -151,6 +160,10 @@ img {
       background-color: #000;
       color: $font-color-dark;
     }
+  }
+
+  .pods-error-msg {
+    color: $font-color-dark;
   }
 }
 
