@@ -30,9 +30,9 @@ Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Upp
 | ✅ Mobilvyn | ✅ Rensa bort paket som inte används |
 | ✅ Språk | ✅ Hantera fel i API-anropet |
 | ✅ Rensa loggning | ✅ Gör en Lighthouse-analys |
-| ✅ Dokumentation | [] Läs av utvecklingsmiljön |
+| ✅ Dokumentation | ✅ Läs av utvecklingsmiljön |
 | ✅ Tillgänglighet (bilder) | ✅ Enhetlig syntax i CSS:en |
-| ✅ Refaktorera funktioner | [] Publicera sidan på GitHub pages |
+| ✅ Refaktorera funktioner | ✅ Publicera sidan på GitHub pages |
 | ✅ Eliminera onödig kod |  |
 | ✅ Rensa bort kod som inte ska sättas |  |
 
