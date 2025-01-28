@@ -13,31 +13,25 @@ Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Upp
 | Bild |
 | Bild |
 
+## 📋 Dokumentation
 ### Checklista över saker jag har fixat:
-- [x] Få projektet att funka
-- [x] CSS till Sass
-- [x] Enhetlig namngivning i CSS:en
-- [x] Konvertera till TypeScript
-- [x] Enhetlig kodkvalitet
-- [x] Mobilvyn
-- [x] Språk
-- [x] Rensa loggning
-- [x] Dokumentation
-- [x] Tillgänglighet (bilder)
-- [x] Refaktorera funktioner
-- [x] Eliminera onödig kod
-- [x] Rensa bort kod som inte ska sättas
-  
-- [x] Rätt sak på rätt plats
-- [x] Hantera loggning på ett effektivt sätt
-- [x] Gör en tillgänglighetsgranskning av sidan
-- [x] Utnyttja features i Sass i CSS:en
-- [x] Rensa bort paket som inte används
-- [x] Hantera fel i API-anropet
-- [] Gör en Lighthouse-analys
-- [] Läs av utvecklingsmiljön
-- [x] Enhetlig syntax i CSS:en
-- [] Publicera sidan på GitHub pages
+| G-nivå | VG-nivå  |
+|--|--|
+| [x] Få projektet att funka | [x] Rätt sak på rätt plats |
+| [x] CSS till Sass | [x] Hantera loggning på ett effektivt sätt |
+| [x] Enhetlig namngivning i CSS:en | [x] Gör en tillgänglighetsgranskning av sidan |
+| [x] Konvertera till TypeScript | [x] Utnyttja features i Sass i CSS:en |
+| [x] Mobilvyn | [x] Rensa bort paket som inte används |
+| [x] Språk | [x] Hantera fel i API-anropet |
+| [x] Rensa loggning | [x] Gör en Lighthouse-analys |
+| [x] Dokumentation | [] Läs av utvecklingsmiljön |
+| [x] Tillgänglighet (bilder) | [x] Enhetlig syntax i CSS:en |
+| [x] Refaktorera funktioner | [] Publicera sidan på GitHub pages |
+| [x] Eliminera onödig kod |  |
+| [x] Rensa bort kod som inte ska sättas |  |
+
+### Lighthouse-analys
+|  |
 
 ## 🛠️ Tech Stack 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
