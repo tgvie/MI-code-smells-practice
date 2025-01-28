@@ -1,24 +1,29 @@
-  <!DOCTYPE html>
-  <html lang="sv">
+<!DOCTYPE html>
+<html lang="sv">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
-    <title>SR Humorprogram</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
 
-  <body>
-    <section class="section__podlist">
-      <button class="podlist__button podlist__button--toggle" tabindex="0">Välj ljust läge</button>
-      <h1>SRs Humorprogram</h1>
-      <article class="podlist__pods">
-        <!-- Content inserted with js here -->
-      </article>
-      <div id="podsError"></div>
-    </section>
+  <title>SR Humorprogram</title>
+</head>
 
-    <script type="module" src="./src/js/main.ts"></script>
-  </body>
+<body>
+  <button class="podlist__button podlist__button--toggle" tabindex="0">
+    <span class="material-symbols-outlined">dark_mode</span>
+  </button>
+  
+  <section class="section__podlist">
+    <h1>SRs Humorprogram</h1>
+    <article class="podlist__pods">
+      <!-- Content inserted with js here -->
+    </article>
+    <div id="podsError"></div>
+  </section>
 
-  </html>
+  <script type="module" src="./src/js/main.ts"></script>
+</body>
+
+</html>
