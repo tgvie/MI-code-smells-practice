@@ -1,84 +1,156 @@
+/* ============================================
+    Variables
+============================================ */
+$font-family: "Source Sans Pro", sans-serif;
+$font-color-light: #ffffff;
+$font-color-dark: #242424;
+
+$background-color-dark: #242424;
+$background-color-light: #faebd7;
+
+/* ============================================
+    Body
+============================================ */
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $font-family;
   line-height: 1.5;
   font-weight: 400;
+  text-rendering: optimizeLegibility;
+  color: $font-color-light;
+  background-color: $background-color-dark;
+  margin: 0;
+  padding: 0;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
 
-.podlist__pods-article {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 2rem;
+/* ============================================
+    Dark/Light Button
+============================================ */
+button {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: 600;
+  color: rgb(72, 76, 122);
+  font-size: 1rem;
+  height: 38px;
+  padding: 8px 24px;
+  border-radius: 50px;
+  background-image: linear-gradient(180deg,#fff,#f5f5fa);
+  box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+  transition: all .2s ease-out;
+  
+  &:hover {
+      box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
+  }
 }
 
-.pods-article__div {
-  display: inline-flex;
-  flex-direction: column;
-  margin-top: 0;
-  margin-left: 1rem;
-}
-
-img {
-  margin-top: 0.5rem;
-}
-
+/* ============================================
+    Header
+============================================ */
 h1 {
-  font-size: 40px;
+  font-size: 2rem;
   text-align: center;
+  margin: 2rem 0;
+  color: $font-color-dark;
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin: 0;
+  color: $font-color-dark;
 }
 
+/* ============================================
+    Podcasts Section
+============================================ */
+.podlist__pods {
+  display: grid;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+
+  &-article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}
+
+.pods-article__div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+/* ============================================
+    Paragraphs
+============================================ */
 p {
   font-size: 1rem;
-  margin: 0;
+  margin: 0.5rem 0;
+  color: $font-color-dark;
 }
 
+/* ============================================
+    Links
+============================================ */
 a {
-  color: rgba(255, 255, 255, 0.87);
   cursor: pointer;
-}
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 600;
+  transition: color 0.2s;
 
-a:active,
-a:hover {
+  &:active,
+  &:hover {
   color: rgb(85, 85, 218);
+  }
 }
 
+/* ============================================
+    Images
+============================================ */
+img {
+  margin-left: 20px;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 8px;
+  justify-content: end;
+}
+
+/* ============================================
+    Dark Mode
+============================================ */
 .darkmode {
-  background-color: antiquewhite;
-  color: #242424;
+  background-color: $background-color-light;
+  color: $font-color-dark;
+
+  a {
+    color: $font-color-dark;
+  }
+
+  .podlist__pods-article {
+    color: $font-color-dark;
+  }
 }
 
-.darkmode a {
-  color: #242424;
-}
-
-.darkmode a:active,
-.darkmode a:hover {
-  color: rgb(85, 85, 218);
-}
-
+/*Grid layout for different screens*/
 @media screen and (min-width: 1000px) {
   .podlist__pods {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 1440px) {
   .podlist__pods {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 }

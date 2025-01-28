@@ -31,7 +31,7 @@ Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Upp
 - [x] Rätt sak på rätt plats
 - [x] Hantera loggning på ett effektivt sätt
 - [x] Gör en tillgänglighetsgranskning av sidan
-- [] Utnyttja features i Sass i CSS:en
+- [x] Utnyttja features i Sass i CSS:en
 - [x] Rensa bort paket som inte används
 - [x] Hantera fel i API-anropet
 - [] Gör en Lighthouse-analys
