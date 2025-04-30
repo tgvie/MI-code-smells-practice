@@ -3,7 +3,7 @@ This project fetches a list of comedy shows from Sveriges Radio using an API and
 
 It was part of an assignment in my education, where I worked on fixing and improving code left by another developer.
 
-**Demo: https://tgvie.github.io/MI-code-smells-practice/**
+**🔗 Demo: https://tgvie.github.io/MI-code-smells-practice/**
 
 <details>
 <summary><strong>🧾 Assigment Requirements</strong></summary>
@@ -36,7 +36,7 @@ It was part of an assignment in my education, where I worked on fixing and impro
 
 | Phone ☀️ | Phone 🌑 |
 | -------- | --------- | 
-| ![Phone Light Mode](src/documention/phone-light.png) | ![Phone Dark Mode](hsrc/documention/phone-dark.png) |
+| ![Phone Light Mode](src/documention/phone-light.png) | ![Phone Dark Mode](src/documention/phone-dark.png) |
 
 ## 🛠️ Tech Stack
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
