@@ -1,9 +1,10 @@
 # 🎭 SR Humorprogram 
+
+**🔗 Demo: https://tgvie.github.io/MI-code-smells-practice/**
+
 This project fetches a list of comedy shows from Sveriges Radio using an API and displays them with a name, image, short description, and a link to listen.
 
 It was part of an assignment in my education, where I worked on fixing and improving code left by another developer.
-
-**🔗 Demo: https://tgvie.github.io/MI-code-smells-practice/**
 
 <details>
 <summary><strong>🧾 Assigment Requirements</strong></summary>
