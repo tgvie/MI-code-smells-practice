@@ -1,71 +1,107 @@
-
 # 🎭 SR Humorprogram 
-Det här programmet hämtar en lista över Sveriges Radios humorprogram via en API och visar dem i en lista. För varje program visas dess namn, bild, en kort beskrivning och en länk för att lyssna direkt.
+This project fetches a list of comedy shows from Sveriges Radio using an API and displays them with a name, image, short description, and a link to listen.
 
-Detta projekt är en del av en uppgift jag har fått i kursen Arbetsmetodik. Uppgiften gick ut på att jag ska fixa och förbättra kod som en tidigare utvecklare lämnat efter sig.
+It was part of an assignment in my education, where I worked on fixing and improving code left by another developer.
 
-**Demo: https://medieinstitutet.github.io/fed24d-arbetsmetodik-inl-1-tgvie/**
+**Demo: https://tgvie.github.io/MI-code-smells-practice/**
 
-### 🖼️ Skärmdump 
-| Desktop Light Mode | Dessktop Dark Mode |
-| ----------------- | ----------------- | 
-| ![Desktop Light Mode](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/desktop-light.png) | ![Desktop Dark Mode](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/desktop-dark.png) |
+<details>
+<summary><strong>🧾 Assigment Requirements</strong></summary>
 
-| Tablet Light Mode | Tablet Dark Mode |
-| ----------------- | ----------------- | 
-| ![Tablet Light Mode](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/tablet-light.png) | ![Tablet Dark Mode](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/tablet-dark.png) |
+#### Checklist of things I’ve fixed:
+| Pass Level (G) | Higher Level (VG) |
+|----------------|-------------------|
+| ✅ Got the project working | ✅ Put things in the right place |
+| ✅ Converted CSS to Sass | ✅ Handled logging effectively |
+| ✅ Consistent naming in CSS | ✅ Performed an accessibility review of the page |
+| ✅ Converted to TypeScript | ✅ Used Sass features in the CSS |
+| ✅ Mobile view | ✅ Removed unused packages |
+| ✅ Language cleanup | ✅ Fixed errors in the API call |
+| ✅ Cleaned up logging | ✅ Ran a Lighthouse analysis |
+| ✅ Documentation | ✅ Implemented dev-environment |
+| ✅ Accessibility | ✅ Consistent CSS syntax |
+| ✅ Refactored functions | ✅ Deployed the site on GitHub Pages |
+| ✅ Removed unnecessary code |  |
+| ✅ Removed code that shouldn’t be included |  |
+</details>
 
-| Phone Light Mode | Phone Dark Mode |
-| ---------------- | --------------- | 
-| ![Phone Light Mode](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/phone-light.png) | ![Phone Dark Mode](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/phone-dark.png) |
+## 🖼️ Preview
+| Desktop ☀️ | Desktop 🌑 |
+| ---------- | ----------- | 
+| ![Desktop Light Mode](src/documention/desktop-light.png) | ![Desktop Dark Mode](src/documention/desktop-dark.png) |
 
-## 📋 Dokumentation
-### Checklista över saker jag har fixat:
-| G-nivå | VG-nivå  |
-|--------|----------|
-| ✅ Få projektet att funka | ✅ Rätt sak på rätt plats |
-| ✅ CSS till Sass | ✅ Hantera loggning på ett effektivt sätt |
-| ✅ Enhetlig namngivning i CSS:en | ✅ Gör en tillgänglighetsgranskning av sidan |
-| ✅ Konvertera till TypeScript | ✅ Utnyttja features i Sass i CSS:en |
-| ✅ Mobilvyn | ✅ Rensa bort paket som inte används |
-| ✅ Språk | ✅ Hantera fel i API-anropet |
-| ✅ Rensa loggning | ✅ Gör en Lighthouse-analys |
-| ✅ Dokumentation | ✅ Läs av utvecklingsmiljön |
-| ✅ Tillgänglighet (bilder) | ✅ Enhetlig syntax i CSS:en |
-| ✅ Refaktorera funktioner | ✅ Publicera sidan på GitHub pages |
-| ✅ Eliminera onödig kod |  |
-| ✅ Rensa bort kod som inte ska sättas |  |
+| Tablet ☀️| Tablet 🌑 |
+| -------- | ---------- | 
+| ![Tablet Light Mode](src/documention/tablet-light.png) | ![Tablet Dark Mode](src/documention/tablet-dark.png) |
 
-### Lighthouse-analys
+| Phone ☀️ | Phone 🌑 |
+| -------- | --------- | 
+| ![Phone Light Mode](src/documention/phone-light.png) | ![Phone Dark Mode](hsrc/documention/phone-dark.png) |
+
+## 🛠️ Tech Stack
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=flat&logo=SASS&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=flat&logo=eslint&logoColor=white)
+
+<hr>
+
+## 🔧 Setup Guide
+<details>
+<summary>1️⃣ Clone Project</summary>
+  
+```bash
+git clone https://github.com/username/repo-name.git
+cd repo-name
+```
+</details>
+
+<details>
+<summary>2️⃣ Install Dependencies</summary>
+  
+```
+pnpm install
+```
+- Then run:
+```
+pnpm build
+pnpm run dev
+```
+</details>
+
+## 📋 Documentation
+<details>
+<summary><strong>Lighthouse Report</strong></summary>
+
 | Desktop | Phone |
 | ------- | ----- |
-| ![Lighthouse Desktop](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/lighthouse-report-desktop.png) | ![Lighthouse Phone](https://github.com/Medieinstitutet/fed24d-arbetsmetodik-inl-1-tgvie/blob/main/src/documention/lighthouse-report-phone.png) |
+| ![Desktop Lighthouse Report](---image---) | ![Phone Lighthouse Report](---image---) |
+</details>
 
-## 🛠️ Tech Stack 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+<details>
+<summary><strong>Code Validation</strong></summary>
 
-## 🚀 Kom igång
-Följ dessa steg för att köra projektet lokalt:
+| HTML | CSS |
+| ---- | --- |
+| ![HTML Validation](---image---) | ![CSS Validation](---image---) |
+</details>
 
-**1. Klona projektet**
-   ```
-   git clone https://github.com/länk-till-projekt
-   cd ditt-repo
-   ```
+## 📋 Dokumentation
 
-**2. Använd PNPM eller annan paket-hanterare**
-   ```
-   pnpm install
-   ```
+<details>
+<summary><strong>Lighthouse Report</strong></summary>
 
-**3. Bygg och kör igång projektet lokalt**
-   ```
-   pnpm build
-   pnpm run dev
-   ```
+| Desktop | Phone |
+| ------- | ----- |
+| ![Lighthouse Desktop](src/documention/lighthouse-report-desktop.png) | ![Lighthouse Phone](src/documention/lighthouse-report-phone.png) |
+</details>
+
+<div align="right">
+  
+## ✍️ Author/s
+🧑‍💻 [@tgvie](https://github.com/tgvie)
+
+</div>
